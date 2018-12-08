@@ -1,17 +1,27 @@
 
 <h2>RequestProcessPurchase</h2>
 <ul class="parameter">
-  <li class="param-required-false">card_number : CardNumber
+  <li class="param-required-true">operation_code : CardOperationCode
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">card_number : CardNumber
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">reason : ReasonDocument
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">timestamp : Date
     <br/>
   </li>
 </ul>
 <ul class="parameter">
   <li class="param-required-true">purchase_amount : Money
-    <br/>
-  </li>
-</ul>
-<ul class="parameter">
-  <li class="param-required-false">reason : ReasonDocument
     <br/>
   </li>
 </ul>
